@@ -1,5 +1,5 @@
-# removed my personal credentials file
-/credentials.json
+# remove secrets (all secrets stored)
+secrets/
 
 # remove my virtual environment
 mailsmith-env/

@@ -18,7 +18,7 @@ def main():
     # The file token.json stores the user's access and refresh tokens, and is
     # created automatically when the authorization flow completes for the first
     # time.
-    if os.path.exists("token.json"):
+    if os.path.exists("secrets/token.json"):
       creds = Credentials.from_authorized_user_file("token.json", SCOPES)
     # If there are no (valid) credentials available, let the user log in.
     if not creds or not creds.valid:
@@ -26,7 +26,7 @@ def main():
             creds.refresh(Request())
         else:
             flow = InstalledAppFlow.from_client_secrets_file(
-                "credentials.json", SCOPES
+                "secrets/credentials.json", SCOPES
             )
         creds = flow.run_local_server(port=0)
         # Save the credentials for the next run
@@ -48,6 +48,8 @@ def main():
         # TODO(developer) - Handle errors from gmail API.
         print(f"An error occurred: {error}")
 
+
+### On this commit, I've autheniticated myself as a test user.
 
 if __name__ == "__main__":
     main()

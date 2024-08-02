@@ -48,8 +48,5 @@ def main():
         # TODO(developer) - Handle errors from gmail API.
         print(f"An error occurred: {error}")
 
-
-### On this commit, I've autheniticated myself as a test user.
-
 if __name__ == "__main__":
     main()

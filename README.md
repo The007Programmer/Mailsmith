@@ -15,7 +15,7 @@
 | Reply emails (gm) | Pending | None |
 
 ## Services Used
-- Gmail API Client
+- [SimpleGmail](https://github.com/jeremyephron/simplegmail) by [jeremyephron](https://github.com/jeremyephron)
 - OpenAI API Client
 
 ### Developer(s)

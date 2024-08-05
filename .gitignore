@@ -3,3 +3,5 @@ secrets/
 
 # remove my virtual environment
 mailsmith-env/
+
+__pycache__

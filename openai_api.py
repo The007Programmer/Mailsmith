@@ -8,12 +8,12 @@ with open("secrets/openai_key.json", "r") as keyfile:
 # Initialize the OpenAI client with the API key
 client = OpenAI(api_key=data["OPENAI_API_KEY"])
 
-# Make the API call
-completion = client.Completion.create(
-    model="gpt-4o-mini",
-    prompt="Compose a poem that explains the concept of recursion in programming.",
-    max_tokens=150
+completion = client.chat.completions.create(
+  model="gpt-4o-mini",
+  messages=[
+    {"role": "system", "content": "You are a poetic assistant, skilled in explaining complex programming concepts with creative flair."},
+    {"role": "user", "content": "Compose a poem that explains the concept of recursion in programming."}
+  ]
 )
 
-# Print the response
-print(completion.choices[0].text.strip())
+print(completion.choices[0].message)

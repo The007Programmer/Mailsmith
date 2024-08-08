@@ -10,9 +10,9 @@
 | Task | Status | Notes |
 | - | :-: | -: |
 | Implement Quickstart | Complete | None |
-| Write emails (gm) | In Progress | None |
-| Read emails (gm) | Pending | None |
-| Reply emails (gm) | Pending | None |
+| Send emails (gm) | Complete | None |
+| Generate email content (gpt) | In progress | None |
+| Send GPT content in emails (gg) | Pending | None |
 
 ## Services Used
 - [SimpleGmail](https://github.com/jeremyephron/simplegmail) by [jeremyephron](https://github.com/jeremyephron)

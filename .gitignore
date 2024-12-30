@@ -1,0 +1,11 @@
+# remove secrets (all secrets stored)
+secrets/
+
+# remove my virtual environment
+mailsmith-env/
+
+# pycache
+__pycache__
+
+# gmail_token
+gmail_token.json

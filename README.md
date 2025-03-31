@@ -1,4 +1,4 @@
-![mailsmith](https://github.com/user-attachments/assets/364ed2e2-94a4-4a4b-bb9e-890834d42f0e)
+![mailsmith](https://github.com/user-attachments/assets/9efb739d-b6ba-40e9-b914-568e3087e149)
 
 ## Description
 - Application that can be used to create and send mails with AI.
